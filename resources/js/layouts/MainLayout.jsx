@@ -15,9 +15,9 @@ export default function MainLayout({ children }) {
         </div>
       </nav>
 
-      <main className="p-6">
-        {children}
-      </main>
+<main className="px-6 md:px-16 py-10">
+  {children}
+</main>
     </div>
   );
 }
